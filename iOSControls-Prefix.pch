@@ -1,0 +1,22 @@
+//
+//  iOSAutomationTestApp-Prefix.pch
+//  iOSAutomationTestApp
+//
+//  Created by Chanikya Mandapathi on 8/10/16.
+//  Copyright © 2016 CanNMobile. All rights reserved.
+//
+
+#ifndef iOSAutomationTestApp_Prefix_pch
+#define iOSAutomationTestApp_Prefix_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <Tealeaf/TLFApplicationHelper.h>
+#import <Tealeaf/TLFApplicationHelper.h>
+#import <Tealeaf/TLFCustomEvent.h>
+#import <Tealeaf/TLFPublicDefinitions.h>
+#import <Tealeaf/TLFApplication.h>
+
+#import "AppManager.h"
+
+#endif /* iOSAutomationTestApp_Prefix_pch */
