@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		395F2115E44854181451BC23 /* Pods_iOSControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC5A08FFF9E9584C73DA8A6 /* Pods_iOSControls.framework */; };
 		66188D5A1F43EC450077B9FC /* DatePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66188D591F43EC450077B9FC /* DatePickerController.m */; };
 		F63E3B721D5942A10031F013 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F63E3B711D5942A10031F013 /* main.m */; };
 		F63E3B751D5942A10031F013 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F63E3B741D5942A10031F013 /* AppDelegate.m */; };
@@ -18,6 +19,8 @@
 		F63E3B941D5A317A0031F013 /* AlertsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F63E3B931D5A317A0031F013 /* AlertsViewController.m */; };
 		F63E3B971D5A31880031F013 /* GesturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F63E3B961D5A31880031F013 /* GesturesViewController.m */; };
 		F63E3B9A1D5A31A20031F013 /* PickersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F63E3B991D5A31A20031F013 /* PickersViewController.m */; };
+		F64C2E8620B497D500164D78 /* CustomAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64C2E8520B497D500164D78 /* CustomAlertController.swift */; };
+		F64C2E8820B49DD800164D78 /* MyAlertsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64C2E8720B49DD800164D78 /* MyAlertsViewController.swift */; };
 		F64DE3B71D5A54D000C73886 /* tealeaf.png in Resources */ = {isa = PBXBuildFile; fileRef = F64DE3B51D5A54D000C73886 /* tealeaf.png */; };
 		F64DE3B81D5A54D000C73886 /* tealeaf2.png in Resources */ = {isa = PBXBuildFile; fileRef = F64DE3B61D5A54D000C73886 /* tealeaf2.png */; };
 		F64DE3BC1D5A595800C73886 /* ProgressIndicatorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F64DE3BB1D5A595800C73886 /* ProgressIndicatorsViewController.m */; };
@@ -46,6 +49,7 @@
 		2AAFB754DFBD90A91F8AB54F /* Pods-iOSAutomationTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAutomationTestApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSAutomationTestApp/Pods-iOSAutomationTestApp.release.xcconfig"; sourceTree = "<group>"; };
 		66188D511F43EC2B0077B9FC /* DatePickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatePickerController.h; sourceTree = "<group>"; };
 		66188D591F43EC450077B9FC /* DatePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerController.m; sourceTree = "<group>"; };
+		8FC5A08FFF9E9584C73DA8A6 /* Pods_iOSControls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSControls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97303FFAD1355A677990DBB0 /* Pods-iOSAutomationTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAutomationTestApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSAutomationTestApp/Pods-iOSAutomationTestApp.debug.xcconfig"; sourceTree = "<group>"; };
 		DEFC8D3D68613BE6111B14BF /* Pods-iOSControls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSControls.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSControls/Pods-iOSControls.release.xcconfig"; sourceTree = "<group>"; };
 		F63E3B6D1D5942A10031F013 /* iOSControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +70,8 @@
 		F63E3B961D5A31880031F013 /* GesturesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GesturesViewController.m; sourceTree = "<group>"; };
 		F63E3B981D5A31A20031F013 /* PickersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickersViewController.h; sourceTree = "<group>"; };
 		F63E3B991D5A31A20031F013 /* PickersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickersViewController.m; sourceTree = "<group>"; };
+		F64C2E8520B497D500164D78 /* CustomAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertController.swift; sourceTree = "<group>"; };
+		F64C2E8720B49DD800164D78 /* MyAlertsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlertsViewController.swift; sourceTree = "<group>"; };
 		F64DE3B51D5A54D000C73886 /* tealeaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tealeaf.png; sourceTree = "<group>"; };
 		F64DE3B61D5A54D000C73886 /* tealeaf2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tealeaf2.png; sourceTree = "<group>"; };
 		F64DE3BA1D5A595800C73886 /* ProgressIndicatorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressIndicatorsViewController.h; sourceTree = "<group>"; };
@@ -110,6 +116,7 @@
 				F64DE3C81D5BAF4F00C73886 /* CoreTelephony.framework in Frameworks */,
 				F64DE3C61D5BAF4000C73886 /* UIKit.framework in Frameworks */,
 				F64DE3C31D5BAF2300C73886 /* Foundation.framework in Frameworks */,
+				395F2115E44854181451BC23 /* Pods_iOSControls.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +204,8 @@
 				F66C50981DCA840800A7E921 /* PageControlViewController.m */,
 				F69619911EA696A4008EB9D3 /* ImagesViewController.h */,
 				F69619921EA696A4008EB9D3 /* ImagesViewController.m */,
+				F64C2E8520B497D500164D78 /* CustomAlertController.swift */,
+				F64C2E8720B49DD800164D78 /* MyAlertsViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -227,6 +236,7 @@
 				F64DE3C51D5BAF4000C73886 /* UIKit.framework */,
 				F64DE3C21D5BAF2300C73886 /* Foundation.framework */,
 				e1389741609dfa772142c04e /* CFNetwork.framework */,
+				8FC5A08FFF9E9584C73DA8A6 /* Pods_iOSControls.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -318,8 +328,8 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-iOSControls/Pods-iOSControls-frameworks.sh",
-				"${PODS_ROOT}/EOCore/SDKs/iOS/Debug/EOCore.framework",
-				"${PODS_ROOT}/IBMTealeaf/SDKs/iOS/Debug/Tealeaf.framework",
+				"${PODS_ROOT}/EOCoreDebug/SDKs/iOS/Debug/EOCore.framework",
+				"${PODS_ROOT}/IBMTealeafDebug/SDKs/iOS/Debug/Tealeaf.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -356,8 +366,8 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-iOSControls/Pods-iOSControls-resources.sh",
-				"${PODS_ROOT}/EOCore/SDKs/iOS/Debug/EOCore.framework/EOCoreSettings.bundle",
-				"${PODS_ROOT}/IBMTealeaf/SDKs/iOS/Debug/Tealeaf.framework/TLFResources.bundle",
+				"${PODS_ROOT}/EOCoreDebug/SDKs/iOS/Debug/EOCore.framework/EOCoreSettings.bundle",
+				"${PODS_ROOT}/IBMTealeafDebug/SDKs/iOS/Debug/Tealeaf.framework/TLFResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -376,12 +386,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F64C2E8620B497D500164D78 /* CustomAlertController.swift in Sources */,
 				F63E3B971D5A31880031F013 /* GesturesViewController.m in Sources */,
 				66188D5A1F43EC450077B9FC /* DatePickerController.m in Sources */,
 				F63E3B9A1D5A31A20031F013 /* PickersViewController.m in Sources */,
 				F63E3B751D5942A10031F013 /* AppDelegate.m in Sources */,
 				F63E3B721D5942A10031F013 /* main.m in Sources */,
 				F63E3B891D5945B80031F013 /* HomeViewController.m in Sources */,
+				F64C2E8820B49DD800164D78 /* MyAlertsViewController.swift in Sources */,
 				F64DE3BC1D5A595800C73886 /* ProgressIndicatorsViewController.m in Sources */,
 				F69619931EA696A4008EB9D3 /* ImagesViewController.m in Sources */,
 				F63E3B911D5A316C0031F013 /* TextBtnViewController.m in Sources */,
