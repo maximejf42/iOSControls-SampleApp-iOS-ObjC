@@ -38,6 +38,10 @@
 		F66C50951DCA83AF00A7E921 /* ImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F66C50941DCA83AF00A7E921 /* ImageCollectionViewCell.m */; };
 		F66C50991DCA840800A7E921 /* PageControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F66C50981DCA840800A7E921 /* PageControlViewController.m */; };
 		F671E8DA1DBE77E000E8E355 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F63E3B811D5942A10031F013 /* Info.plist */; };
+		F6772690215C3EAF00C45E0C /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F677268F215C3EAF00C45E0C /* CustomAlertView.swift */; };
+		F6772691215C3EB400C45E0C /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F677268F215C3EAF00C45E0C /* CustomAlertView.swift */; };
+		F6772693215C3ED800C45E0C /* CustomAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6772692215C3ED800C45E0C /* CustomAlertView.xib */; };
+		F6772694215C3ED800C45E0C /* CustomAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6772692215C3ED800C45E0C /* CustomAlertView.xib */; };
 		F68FB8681DCA928100E039A6 /* bed.png in Resources */ = {isa = PBXBuildFile; fileRef = F68FB8651DCA928100E039A6 /* bed.png */; };
 		F68FB86A1DCA928100E039A6 /* ChestDrawer.png in Resources */ = {isa = PBXBuildFile; fileRef = F68FB8661DCA928100E039A6 /* ChestDrawer.png */; };
 		F68FB86C1DCA928100E039A6 /* comfortSofa.png in Resources */ = {isa = PBXBuildFile; fileRef = F68FB8671DCA928100E039A6 /* comfortSofa.png */; };
@@ -133,6 +137,8 @@
 		F66C50941DCA83AF00A7E921 /* ImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCollectionViewCell.m; sourceTree = "<group>"; };
 		F66C50971DCA840800A7E921 /* PageControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageControlViewController.h; sourceTree = "<group>"; };
 		F66C50981DCA840800A7E921 /* PageControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageControlViewController.m; sourceTree = "<group>"; };
+		F677268F215C3EAF00C45E0C /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		F6772692215C3ED800C45E0C /* CustomAlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomAlertView.xib; sourceTree = "<group>"; };
 		F68FB8651DCA928100E039A6 /* bed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bed.png; sourceTree = "<group>"; };
 		F68FB8661DCA928100E039A6 /* ChestDrawer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChestDrawer.png; sourceTree = "<group>"; };
 		F68FB8671DCA928100E039A6 /* comfortSofa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comfortSofa.png; sourceTree = "<group>"; };
@@ -251,8 +257,8 @@
 				F63E3B921D5A317A0031F013 /* AlertsViewController.h */,
 				F63E3B931D5A317A0031F013 /* AlertsViewController.m */,
 				F63E3B981D5A31A20031F013 /* PickersViewController.h */,
-				F63E3B991D5A31A20031F013 /* PickersViewController.m */,
 				66188D511F43EC2B0077B9FC /* DatePickerController.h */,
+				F63E3B991D5A31A20031F013 /* PickersViewController.m */,
 				66188D591F43EC450077B9FC /* DatePickerController.m */,
 				F64DE3BA1D5A595800C73886 /* ProgressIndicatorsViewController.h */,
 				F64DE3BB1D5A595800C73886 /* ProgressIndicatorsViewController.m */,
@@ -269,6 +275,8 @@
 				F69619911EA696A4008EB9D3 /* ImagesViewController.h */,
 				F69619921EA696A4008EB9D3 /* ImagesViewController.m */,
 				F64C2E8520B497D500164D78 /* CustomAlertController.swift */,
+				F677268F215C3EAF00C45E0C /* CustomAlertView.swift */,
+				F6772692215C3ED800C45E0C /* CustomAlertView.xib */,
 				F64C2E8720B49DD800164D78 /* MyAlertsViewController.swift */,
 			);
 			name = Controllers;
@@ -397,6 +405,7 @@
 				F696199E1EA697E1008EB9D3 /* ibm.jpg in Resources */,
 				F64DE3B81D5A54D000C73886 /* tealeaf2.png in Resources */,
 				F68FB86C1DCA928100E039A6 /* comfortSofa.png in Resources */,
+				F6772693215C3ED800C45E0C /* CustomAlertView.xib in Resources */,
 				F63E3B801D5942A10031F013 /* LaunchScreen.storyboard in Resources */,
 				F63E3B7D1D5942A10031F013 /* Assets.xcassets in Resources */,
 				F64DE3C01D5A77E100C73886 /* watson.png in Resources */,
@@ -415,6 +424,7 @@
 				F6C4822120C5F64700B0E70D /* bed.png in Resources */,
 				F6C4822220C5F64700B0E70D /* ibm.jpg in Resources */,
 				F6C4822320C5F64700B0E70D /* tealeaf2.png in Resources */,
+				F6772694215C3ED800C45E0C /* CustomAlertView.xib in Resources */,
 				F6C4822420C5F64700B0E70D /* comfortSofa.png in Resources */,
 				F6C4822520C5F64700B0E70D /* LaunchScreen.storyboard in Resources */,
 				F6C4822620C5F64700B0E70D /* Assets.xcassets in Resources */,
@@ -495,6 +505,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6772690215C3EAF00C45E0C /* CustomAlertView.swift in Sources */,
 				F64C2E8620B497D500164D78 /* CustomAlertController.swift in Sources */,
 				F63E3B971D5A31880031F013 /* GesturesViewController.m in Sources */,
 				66188D5A1F43EC450077B9FC /* DatePickerController.m in Sources */,
@@ -518,6 +529,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6772691215C3EB400C45E0C /* CustomAlertView.swift in Sources */,
 				F6C4820520C5F64700B0E70D /* CustomAlertController.swift in Sources */,
 				F6C4820620C5F64700B0E70D /* GesturesViewController.m in Sources */,
 				F6C4820720C5F64700B0E70D /* DatePickerController.m in Sources */,
