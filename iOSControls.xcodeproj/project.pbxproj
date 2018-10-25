@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		395F2115E44854181451BC23 /* Pods_iOSControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC5A08FFF9E9584C73DA8A6 /* Pods_iOSControls.framework */; };
+		63732A6B2182544500680998 /* Tealeaf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63732A6A2182544500680998 /* Tealeaf.framework */; };
+		63732A6D218254D200680998 /* EOCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63732A6C218254D200680998 /* EOCore.framework */; };
 		66188D5A1F43EC450077B9FC /* DatePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66188D591F43EC450077B9FC /* DatePickerController.m */; };
 		F63E3B721D5942A10031F013 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F63E3B711D5942A10031F013 /* main.m */; };
 		F63E3B751D5942A10031F013 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F63E3B741D5942A10031F013 /* AppDelegate.m */; };
@@ -82,14 +84,14 @@
 		F6C4822820C5F64700B0E70D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F63E3B811D5942A10031F013 /* Info.plist */; };
 		F6C4822920C5F64700B0E70D /* ChestDrawer.png in Resources */ = {isa = PBXBuildFile; fileRef = F68FB8661DCA928100E039A6 /* ChestDrawer.png */; };
 		F6C4822A20C5F64700B0E70D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63E3B791D5942A10031F013 /* Main.storyboard */; };
-		F6C4823A20C5F6D800B0E70D /* libTealeaf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C4823920C5F6D800B0E70D /* libTealeaf.a */; };
-		F6C4823C20C5F82A00B0E70D /* libEOCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C4823B20C5F82A00B0E70D /* libEOCore.a */; };
 		F6C4823F20C5FDB800B0E70D /* TLFResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F6C4823D20C5FDB800B0E70D /* TLFResources.bundle */; };
 		F6C4824020C5FDB800B0E70D /* EOCoreSettings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F6C4823E20C5FDB800B0E70D /* EOCoreSettings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2AAFB754DFBD90A91F8AB54F /* Pods-iOSAutomationTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAutomationTestApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSAutomationTestApp/Pods-iOSAutomationTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		63732A6A2182544500680998 /* Tealeaf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Tealeaf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63732A6C218254D200680998 /* EOCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EOCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66188D511F43EC2B0077B9FC /* DatePickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatePickerController.h; sourceTree = "<group>"; };
 		66188D591F43EC450077B9FC /* DatePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerController.m; sourceTree = "<group>"; };
 		8FC5A08FFF9E9584C73DA8A6 /* Pods_iOSControls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSControls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,8 +177,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6C4823C20C5F82A00B0E70D /* libEOCore.a in Frameworks */,
-				F6C4823A20C5F6D800B0E70D /* libTealeaf.a in Frameworks */,
+				63732A6D218254D200680998 /* EOCore.framework in Frameworks */,
+				63732A6B2182544500680998 /* Tealeaf.framework in Frameworks */,
 				F6C4821620C5F64700B0E70D /* WebKit.framework in Frameworks */,
 				F6C4821720C5F64700B0E70D /* libz.tbd in Frameworks */,
 				F6C4821820C5F64700B0E70D /* CoreLocation.framework in Frameworks */,
@@ -300,6 +302,8 @@
 		F64DE3D11D5BAF9500C73886 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				63732A6C218254D200680998 /* EOCore.framework */,
+				63732A6A2182544500680998 /* Tealeaf.framework */,
 				F6C4823B20C5F82A00B0E70D /* libEOCore.a */,
 				F6C4823720C5F6D800B0E70D /* libEOCore.a */,
 				F6C4823920C5F6D800B0E70D /* libTealeaf.a */,
@@ -762,8 +766,9 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.IBM.iOSControlsApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IBM.internal.iOSControlsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOSControls/iOSControls-Bridging-Header.h";
@@ -793,8 +798,9 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.IBM.iOSControlsApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IBM.internal.iOSControlsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOSControls/iOSControls-Bridging-Header.h";
