@@ -266,7 +266,7 @@
 		F63E3B651D5942A10031F013 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = CanNMobile;
 				TargetAttributes = {
 					F63E3B6C1D5942A10031F013 = {
