@@ -51,8 +51,8 @@
 }
 
 - (IBAction)btnTapped:(id)sender {
-    
-   // [[TLFCustomEvent sharedInstance] logEvent:@"calabash-customEvent" value:@"CustomEvent Test"];
+    NSDictionary *dict = @{ @"CustomEvent Test" : @"testKey1"};
+    [[TLFCustomEvent sharedInstance] logEvent:@"calabash-customEvent" values:dict];
 }
 - (IBAction)logLocation:(id)sender {
     CLLocationDegrees myLatitude= 37.7888024;
